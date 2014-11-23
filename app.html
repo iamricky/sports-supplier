@@ -14,18 +14,20 @@
         <div class="navbar navbar-inverse navbar-fixed-top">
             <a class="navbar-brand" href="#">sports store</a>
         </div>
-        <div class="panel panel-default row">
-            <div class="col-xs-3"></div>
-            <div class="col-xs-8">
-                <div class="well" ng-repeat="item in data.products">
-                    <h3>
-                        <strong>{{item.name}}</strong>
-                        <span class="pull-right label label-primary">
-                            {{item.price | currency}}
-                        </span>
-                    </h3>
+        <div class="container">
+            <div class="panel panel-default row">
+                <div class="col-xs-3"></div>
+                <div class="col-xs-8">
+                    <div class="well" ng-repeat="item in data.products">
+                        <h3>
+                            <strong>{{item.name}}</strong>
+                            <span class="pull-right label label-primary">
+                                {{item.price | currency}}
+                            </span>
+                        </h3>
 
-                    <span class="lead">{{item.description}}</span>
+                        <span class="lead">{{item.description}}</span>
+                    </div>
                 </div>
             </div>
         </div>
