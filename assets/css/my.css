@@ -1,0 +1,11 @@
+html {
+    font-smoothing: antialiased;
+    font-smooth: always;
+    text-rendering: optimizeLegibility;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+.panel{
+    margin: 96px 0 24px;
+    padding: 48px 0;
+}
