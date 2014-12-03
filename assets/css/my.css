@@ -6,6 +6,9 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 .panel{
-    margin: 96px 0 24px;
+    margin: 24px 0;
     padding: 48px 0;
+}
+.container {
+    margin: 96px 0 0;
 }
