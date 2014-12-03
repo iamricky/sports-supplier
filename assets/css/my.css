@@ -10,7 +10,7 @@ html {
     padding: 48px 0;
 }
 .container {
-    margin: 96px 0 0;
+    margin-top: 96px;
 }
 .navbar-right {
     float: right !important;
