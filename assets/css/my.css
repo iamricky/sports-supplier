@@ -12,3 +12,10 @@ html {
 .container {
     margin: 96px 0 0;
 }
+.navbar-right {
+    float: right !important;
+    margin-right: 5px;
+}
+.navbar-text {
+    margin-right: 10px;
+}
