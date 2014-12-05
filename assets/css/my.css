@@ -9,7 +9,7 @@ html {
     margin: 24px 0;
     padding: 48px 0;
 }
-.container {
+body > .container {
     margin-top: 96px;
 }
 .navbar-right {
