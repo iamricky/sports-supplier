@@ -1,10 +1,10 @@
 <div class="panel panel-default row" ng-controller="productListCtrl">
-    <div class="col-xs-3">
+    <div class="col-md-3">
         <a ng-click="selectCategory()" class="btn btn-block btn-default btn-lg">Home</a>
         <a ng-repeat="item in data.products | orderBy: 'category' | unique: 'category'" ng-click="selectCategory(item)" ng-class="getCategoryClass(item)" class="btn btn-block btn-default btn-lg">{{item}}</a>
     </div>
 
-    <div class="col-xs-8">
+    <div class="col-md-8">
         <div class="well" ng-repeat="item in data.products | filter: categoryFilterFn | range: selectedPage : pageSize">
             <h3>
                 <strong>{{item.name}}</strong>
