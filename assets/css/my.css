@@ -19,6 +19,9 @@ body > .container {
 .navbar-text {
     margin-right: 10px;
 }
+form {
+    background: none !important;
+}
 .ng-invalid {
     background-color: lightpink;
 }
